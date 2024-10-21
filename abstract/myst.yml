@@ -1,35 +1,43 @@
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-CONFERENCE
-  # title: TITLE
-  # description: DESCRIPTION
+  id: ubcgif-2024-alvis-etal-seguxo
+  title: Using convolutional neural networks to classify UXO with multicomponent electromagnetic induction data
+  description: Summit on Geophysical Detection of Explosive Remnants of War- Solving Current Challenges of Unexploded Ordnance (UXO) and Demining
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-    # - name: Douglas W. Oldenburg
-    #   affiliation: ubc
-    #   email: doug@eos.ubc.ca
-    #   orcid: 0000-0002-4327-2124
+    - name: Jorge Lopez-Alvis
+      email: jlalvis@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0001-8626-117X
+      affiliation:
+        id: ubc
+        name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+    - name: Douglas W. Oldenburg
+      affiliation: ubc
+      email: doug@eos.ubc.ca
+      orcid: 0000-0002-4327-2124
+    - name: Stephen Billings
+      affiliation: ubc
+      email: stephen.billings@skyresearch.com
+      # orcid: ORCID
+    - name: Lin-Ping Song
+      affiliation: ubc
+      # email: EMAIL 
+      # orcid: ORCID
   # banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
+    title: SEGUXO Fall Meeting
+    url: https://seg.org/calendar_events/summit-on-geophysical-detection-of-explosive-remnants-of-war-solving-current-challenges-of-unexploded-ordnance-and-demining/
   # license: CC-BY-4.0
   # open_access: true
   # doi: DOI
-  # date: DATE OF PRESENTATION
+  date: 2024/04/01
   abbreviations:
     # DC: direct current
     # EM: electromagnetics
@@ -44,10 +52,7 @@ project:
 site:
   template: article-theme
   actions:
-    # - title: pdf
-    #   url: ARTICLE-NAME.pdf
-    #   static: true
-    # - title: slides
-    #   url: presentation/SLIDES-NAME.pdf
-    #   static: true
+    - title: Slides
+      url: presentation/alvis-2024-seguxo.pdf
+      static: true
   # domains: []
